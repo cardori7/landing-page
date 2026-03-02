@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Landing Page</title>
+    <meta name="description" content="Landing page responsiva para praticar HTML e CSS" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <header class="header">
+      <a class="logo" href="#">Ricardo</a>
+
+      <nav class="nav" aria-label="Navegação principal">
+        <a href="#beneficios">Benefícios</a>
+        <a href="#como-funciona">Como funciona</a>
+        <a href="#contato" class="btn btn--ghost">Contato</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero__content">
+          <div class="hero__text">
+            <h1>Crie páginas bonitas e responsivas</h1>
+            <p>
+              Uma landing page simples para você praticar HTML semântico, CSS e layout responsivo.
+            </p>
+
+            <div class="hero__cta">
+              <a class="btn" href="#contato">Quero começar</a>
+              <a class="btn btn--ghost" href="#beneficios">Ver benefícios</a>
+            </div>
+
+            <ul class="hero__bullets">
+              <li>Mobile-first</li>
+              <li>Layout com Flexbox</li>
+              <li>1 breakpoint bem pensado</li>
+            </ul>
+          </div>
+
+          <div class="hero__media" aria-hidden="true">
+            <div class="mock"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="beneficios" class="section">
+        <div class="container">
+          <h2>Benefícios</h2>
+
+          <div class="grid">
+            <article class="card">
+              <h3>Rápido</h3>
+              <p>Estrutura enxuta, fácil de entender e evoluir.</p>
+            </article>
+
+            <article class="card">
+              <h3>Responsivo</h3>
+              <p>Funciona bem no celular e no desktop.</p>
+            </article>
+
+            <article class="card">
+              <h3>Organizado</h3>
+              <p>Classes consistentes e seções claras.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="como-funciona" class="section section--alt">
+        <div class="container">
+          <h2>Como funciona</h2>
+
+          <ol class="steps">
+            <li>Você edita textos e cores no CSS.</li>
+            <li>Você adapta as seções no HTML.</li>
+            <li>Você publica (GitHub Pages / Netlify / Vercel).</li>
+          </ol>
+        </div>
+      </section>
+
+      <section id="contato" class="section">
+        <div class="container">
+          <h2>Contato</h2>
+
+          <form class="form">
+            <label>
+              Nome
+              <input type="text" name="nome" placeholder="Seu nome" required />
+            </label>
+
+            <label>
+              E-mail
+              <input type="email" name="email" placeholder="seuemail@email.com" required />
+            </label>
+
+            <label>
+              Mensagem
+              <textarea name="mensagem" rows="4" placeholder="Como posso te ajudar?"></textarea>
+            </label>
+
+            <button class="btn" type="submit">Enviar</button>
+            <p class="form__hint">Este formulário é apenas visual (sem back-end).</p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <small>© <span id="year">2026</span> Ricardo. Feito com HTML e CSS.</small>
+      </div>
+    </footer>
+
+    <script>
+      // pequeno detalhe para parecer “acabado” (opcional)
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
+
+     
+
+        
+    </main>
+</body>
+</html>
