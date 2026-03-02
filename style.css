@@ -1,5 +1,5 @@
 /* 1) Reset leve e base
-   Por quê: padroniza espaçamentos e facilita calcular larguras (box-sizing). */
+ padronizar espaçamentos e facilitar calcular larguras (box-sizing). */
 *,
 *::before,
 *::after {
@@ -36,7 +36,7 @@ a {
 }
 
 /* 2) Header
-   Por quê: Flexbox alinha logo e menu com facilidade em uma linha. [web:252] */
+     Flexbox alinha logo e menu com facilidade em uma linha. */
 .header {
   position: sticky;
   top: 0;
@@ -72,7 +72,7 @@ a {
 }
 
 /* 3) Botões
-   Por quê: componente reutilizável (você usa em mais de um lugar). */
+   componente reutilizável. */
 .btn {
   display: inline-flex;
   align-items: center;
@@ -92,7 +92,7 @@ a {
 }
 
 /* 4) Hero (mobile-first)
-   Por quê: começamos com layout em coluna (melhor para celular). [web:248] */
+   começamos com layout em coluna (melhor para celular). */
 .hero {
   padding: 44px 0 18px;
 }
@@ -215,7 +215,7 @@ textarea:focus {
 }
 
 /* 8) Breakpoint (desktop)
-   Por quê: com media queries você aplica regras só quando a tela permite. [web:251][web:254] */
+   com media queries você aplica regras só quando a tela permite. [web:251][web:254] */
 @media (min-width: 900px) {
   .hero {
     padding: 72px 0 24px;
@@ -240,3 +240,4 @@ textarea:focus {
     gap: 16px;
   }
 }
+
