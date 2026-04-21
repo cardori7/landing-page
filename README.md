@@ -17,21 +17,4 @@ cd landing-page
 
 3. Abra o index.html no seu navegador
 
-Responsividade
-O layout se adapta a diferentes tamanhos de tela através de regras no style.css, normalmente com media queries (breakpoints) e técnicas como Flexbox/Grid.
-​
-Como personalizar
-Textos, seções e links: edite index.html.
-​
-Cores, fontes, espaçamentos e tamanhos para mobile/desktop: edite
-
-Exemplo de media query:
-@media (max-width: 768px) {
-  /* estilos para telas menores */
-}
-
-landing-page/
-├─ index.html
-├─ css/
-   └─ style.css
 
